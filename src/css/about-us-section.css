@@ -1,0 +1,89 @@
+.about-us {
+  background-image: url('https://picsum.photos/545/484');
+  background-repeat: no-repeat;
+  background-position: bottom right -209px;
+  padding-top: 40px;
+  padding-bottom: 62px;
+}
+
+.about-us-title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.38;
+  letter-spacing: -0.03em;
+  color: #fcf9f9;
+  margin-bottom: 40px;
+}
+
+.about-us-desc {
+  line-height: 1.5;
+  letter-spacing: -0.04em;
+  color: rgba(252, 249, 249, 0.4);
+  margin-bottom: 20px;
+}
+
+.about-us-img-thumb {
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 767px) {
+  .about-us {
+    background-size: 459px 408px;
+  }
+
+  .about-us-desc {
+    font-size: 14px;
+  }
+
+  .about-us-text-wrapper {
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about-us-title {
+    font-size: 44px;
+    line-height: 1.45;
+  }
+
+  .about-us {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-position: bottom right -176px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .about-us-text-wrapper {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about-us {
+    padding-top: 75px;
+    padding-bottom: 80px;
+    background-position: bottom right -160px;
+  }
+
+  .about-us-container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .about-us-text-wrapper {
+    max-width: 536px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about-us {
+    background-position: bottom right;
+  }
+
+  .about-us-text-wrapper {
+    max-width: 481px;
+  }
+}
