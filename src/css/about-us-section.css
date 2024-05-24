@@ -6,6 +6,12 @@
   padding-bottom: 62px;
 }
 
+@media screen and (min-resolution: 192dpi) {
+  .about-us {
+    background-image: url('https://pcsum.photos/545/484');
+  }
+}
+
 .about-us-title {
   font-weight: 500;
   font-size: 32px;
