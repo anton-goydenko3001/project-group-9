@@ -1,0 +1,83 @@
+<!-- ================= order-section ======================================= -->
+
+<section class="section your-order-section" id="order-section">
+  <div class="container order-sec-bgimg-holder"></div>
+
+  <div class="container order-sec-container">
+    <div class="order-form-holder">
+      <h2 class="order-title">
+        <span class="order-title-part-wrapper"> Your order </span> is our
+        priority: Personalized approach and quality of service
+      </h2>
+      <!-- ======== order-form =========== -->
+      <form class="order-sec-form">
+        <label class="order-form-label order-form-name-label">
+          <input
+            class="order-form-element order-form-user-name"
+            type="text"
+            name="order-form-user-name"
+            placeholder="Enter your full name"
+            pattern="[A-Za-zА-Яа-яЄєЇїІі'ь]{3,50}"
+            required
+            autofocus
+          />
+        </label>
+        <label class="order-form-label order-form-mail-label">
+          <input
+            class="order-form-element order-form-user-mail"
+            type="email"
+            name="order-form-user-mail"
+            placeholder="Enter your email"
+            pattern="[^@\s]+@[^@\s]+\.[^@\s]+"
+        /></label>
+        <label class="order-form-label order-form-comment-label">
+          <textarea
+            class="order-form-element order-form-user-comment"
+            name="order-form-user-comment"
+            placeholder="Comments"
+          ></textarea>
+        </label>
+        <!--  Button Submit  -->
+        <button class="order-form-btn" type="submit">
+          Send
+          <svg class="order-form-btn-icon" width="26" height="10">
+            <use href="/img/icons.svg#vector-icon"></use>
+          </svg>
+        </button>
+      </form>
+    </div>
+    <!-- ======== order-pic =========== -->
+    <div class="order-pic-holder">
+      <picture class="order-sec-picture">
+        <source
+          srcset="
+            /img/desktop1440/order-desktop1440.jpg    1x,
+            /img/desktop1440/order-desktop1440@2x.jpg 2x
+          "
+          media="(min-width: 1440px)"
+        />
+        <source
+          srcset="
+            /img/desktop1280/order-desktop1280.jpg    1x,
+            /img/desktop1280/order-desktop1280@2x.jpg 2x
+          "
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="
+            /img/tablet/order-tablet.jpg    1x,
+            /img/tablet/order-tablet@2x.jpg 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <img
+          class="order-sec-pic-img"
+          src="/img/desktop1280/order-desktop1280.jpg"
+          width="704"
+          height="521"
+          alt="girl in a embroidered vest"
+        />
+      </picture>
+    </div>
+  </div>
+</section>

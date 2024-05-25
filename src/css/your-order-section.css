@@ -1,0 +1,248 @@
+:root {
+  --black: #1c2225;
+  --white: #fcf9f9;
+  --yellow: #ecd979;
+}
+/* ========================================================================================================================================================
+ORDER SECTION
+======================================================================================================================================================== */
+
+/*  =============  MOBILE ================================= */
+@media screen and (max-width: 767px) {
+  .order-pic-holder {
+    display: none;
+  }
+  .order-sec-pic-img {
+    display: none;
+  }
+  .order-sec-container {
+    padding-top: 80px;
+  }
+
+  .order-sec-bgimg-holder {
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/img/phone/order-background-phone.jpg);
+  }
+  @media screen and (min-resolution: 192dpi) {
+    .order-sec-bgimg-holder {
+      background-image: url(/img/phone/order-background-phone@2x.jpg);
+    }
+  }
+  .order-title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.37;
+    letter-spacing: -0.03em;
+    color: var(--white);
+    margin-bottom: 40px;
+  }
+  .order-title-part-wrapper {
+    color: var(--yellow);
+  }
+  /* ====== order-form ======*/
+  .order-sec-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -0.02em;
+    color: rgba(252, 249, 249, 0.5);
+
+    min-width: 280px;
+    max-width: 335px;
+  }
+
+  .order-form-element {
+    width: 100%;
+    padding: 14px 16px;
+    outline: transparent;
+    background-color: transparent;
+    border-radius: 15px;
+    color: rgba(252, 249, 249, 0.5);
+    border: 1px solid rgba(252, 249, 249, 0.1);
+  }
+
+  .order-form-element:hover,
+  .order-form-element:focus {
+    border: 1px solid #ecd979;
+  }
+  .order-form-user-comment {
+    border-radius: 8px;
+    height: 196px;
+  }
+  .order-form-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: transparent;
+    border: 1px solid rgba(252, 249, 249, 0.1);
+    border-radius: 15px;
+    padding: 14px 36px;
+    width: 145px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    color: var(--white);
+  }
+
+  .order-form-btn:hover,
+  .order-form-btn:focus {
+    border: 1px solid #ecd979;
+  }
+}
+/* =============== TABLET ================================= */
+@media screen and (min-width: 768px) {
+  .order-sec-container {
+    padding-top: 100px;
+    padding-bottom: 79px;
+
+    background-image: url(/img/ornament-gray.png);
+    background-size: 545px 484px;
+    background-position: left -221px bottom;
+    background-repeat: no-repeat;
+  }
+  .order-sec-bgimg-holder {
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 776px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/img/tablet/order-background-tablet.jpg);
+  }
+  @media screen and (min-resolution: 192dpi) {
+    .order-sec-container {
+      background-image: url(/img/ornament-gray@2x.png);
+    }
+    .order-sec-bgimg-holder {
+      background-image: url(/img/tablet/order-background-tablet@2x.jpg);
+    }
+  }
+
+  .order-title {
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 1.32;
+    letter-spacing: -0.03em;
+    color: var(--white);
+    margin-bottom: 40px;
+  }
+  .order-title-part-wrapper {
+    color: var(--yellow);
+  }
+  .order-form-holder {
+    width: 542px;
+    margin-bottom: 100px;
+  }
+
+  /* ====== order-form ======*/
+  .order-sec-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    color: rgba(252, 249, 249, 0.5);
+
+    width: 508px;
+  }
+
+  .order-form-element {
+    width: 100%;
+    padding: 14px 16px;
+    outline: transparent;
+    background-color: transparent;
+    color: rgba(252, 249, 249, 0.5);
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.1);
+  }
+  .order-form-element:hover,
+  .order-form-element:focus {
+    border: 1px solid #ecd979;
+  }
+  .order-form-user-comment {
+    border-radius: 8px;
+    height: 196px;
+  }
+  .order-form-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: transparent;
+    border: 1px solid rgba(252, 249, 249, 0.1);
+    border-radius: 15px;
+    padding: 14px 36px;
+    width: 145px;
+    margin-top: 20px;
+
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    color: var(--white);
+  }
+  .order-form-btn:hover,
+  .order-form-btn:focus {
+    border: 1px solid #ecd979;
+  }
+}
+
+/* ============== DESKTOP-1280 ==================================== */
+@media screen and (min-width: 1280px) {
+  .order-sec-container {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 50px;
+    padding-top: 150px;
+    padding-bottom: 0;
+    background-position: left -258px bottom;
+  }
+  .order-form-holder {
+    margin-bottom: 0;
+  }
+  .order-sec-bgimg-holder {
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 776px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/img/desktop1280/order-background-desktop1280.jpg);
+  }
+  @media screen and (min-resolution: 192dpi) {
+    .order-sec-bgimg-holder {
+      background-image: url(/img/desktop1280/order-background-desktop1280@2x.jpg);
+    }
+    .order-pic-holder {
+      width: 588px;
+    }
+  }
+}
+/* ============== DESKTOP-1440 ==================================== */
+@media screen and (min-width: 1440px) {
+  .order-sec-container {
+    background-position: left -222px bottom;
+  }
+
+  .order-pic-holder {
+    width: 524px;
+  }
+  .order-form-holder {
+    width: 666px;
+  }
+}
