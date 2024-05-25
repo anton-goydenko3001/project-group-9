@@ -17,7 +17,7 @@
     <title>Vyshyvanka</title>
     
     <script type="module" crossorigin src="/project-group-9/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/project-group-9/assets/index-e06c752b.css">
+    <link rel="stylesheet" href="/project-group-9/assets/index-46246135.css">
   </head>
   <body>
     <header class="section section-topline">
@@ -83,7 +83,81 @@
       
       
       
-      
+      <!-- ================= order-section ======================================= -->
+
+<section class="section your-order-section" id="order-section">
+  <div class="container order-sec-bgimg-holder"></div>
+
+  <div class="container order-sec-container">
+    <div class="order-form-holder">
+      <h2 class="order-title">
+        <span class="order-title-part-wrapper"> Your order </span> is our
+        priority: Personalized approach and quality of service
+      </h2>
+      <!-- ======== order-form =========== -->
+      <form class="order-sec-form">
+        <label class="order-form-label order-form-name-label">
+          <input
+            class="order-form-element order-form-user-name"
+            type="text"
+            name="order-form-user-name"
+            placeholder="Enter your full name"
+            pattern="[A-Za-zА-Яа-яЄєЇїІі'ь]{3,50}"
+            required
+            autofocus
+          />
+        </label>
+        <label class="order-form-label order-form-mail-label">
+          <input
+            class="order-form-element order-form-user-mail"
+            type="email"
+            name="order-form-user-mail"
+            placeholder="Enter your email"
+            pattern="[^@\s]+@[^@\s]+\.[^@\s]+"
+        /></label>
+        <label class="order-form-label order-form-comment-label">
+          <textarea
+            class="order-form-element order-form-user-comment"
+            name="order-form-user-comment"
+            placeholder="Comments"
+          ></textarea>
+        </label>
+        <!--  Button Submit  -->
+        <button class="order-form-btn" type="submit">
+          Send
+          <svg class="order-form-btn-icon" width="26" height="10">
+            <use href="/project-group-9/assets/icons-c4f977b8.svg#vector-icon"></use>
+          </svg>
+        </button>
+      </form>
+    </div>
+    <!-- ======== order-pic =========== -->
+    <div class="order-pic-holder">
+      <picture class="order-sec-picture">
+        <source
+          srcset="/project-group-9/assets/order-desktop1440-7239e369.jpg 1x, /project-group-9/assets/order-desktop1440@2x-eeca6911.jpg 2x"
+          media="(min-width: 1440px)"
+        />
+        <source
+          srcset="/project-group-9/assets/order-desktop1280-0bc05b6a.jpg 1x, /project-group-9/assets/order-desktop1280@2x-9bd6e7bf.jpg 2x"
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="/project-group-9/assets/order-tablet-dea76a94.jpg 1x, /project-group-9/assets/order-tablet@2x-6718b759.jpg 2x"
+          media="(min-width: 768px)"
+        />
+        <img
+          class="order-sec-pic-img"
+          src="/project-group-9/assets/order-desktop1280-0bc05b6a.jpg"
+          width="704"
+          height="521"
+          alt="girl in a embroidered vest"
+        />
+      </picture>
+    </div>
+  </div>
+</section>
+
       
     </main>
 
