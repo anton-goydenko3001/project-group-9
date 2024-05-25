@@ -9,10 +9,10 @@ ORDER SECTION
 
 /*  =============  MOBILE ================================= */
 @media screen and (max-width: 767px) {
-  .order-pic-holder {
+  .order-sec-pic-img {
     display: none;
   }
-  .order-sec-pic-img {
+  .order-pic-holder {
     display: none;
   }
   .order-sec-container {
@@ -105,14 +105,23 @@ ORDER SECTION
 }
 /* =============== TABLET ================================= */
 @media screen and (min-width: 768px) {
+  /* .order-sec-container {
+    background-image: url(/img/ornament/ornament-gray.png);
+    background-size: 545px 484px;
+
+    background-repeat: no-repeat;
+    background-position: left -222px bottom;
+  } */
+  .your-order-section {
+    background-image: url(/img/ornament/ornament-gray.png);
+    background-size: 545px 484px;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* transform: translateX(-150%) translateY(80); */
+  }
   .order-sec-container {
     padding-top: 100px;
     padding-bottom: 79px;
-
-    background-image: url(/img/ornament/ornament-gray.png);
-    background-size: 545px 484px;
-    background-position: left -221px bottom;
-    background-repeat: no-repeat;
   }
   .order-sec-bgimg-holder {
     padding: 0;
@@ -125,9 +134,9 @@ ORDER SECTION
     background-image: url(/img/tablet/order-background-tablet.jpg);
   }
   @media screen and (min-resolution: 192dpi) {
-    .order-sec-container {
+    /* .order-sec-container {
       background-image: url(/img/ornament/ornament-gray@2x.png);
-    }
+    } */
     .order-sec-bgimg-holder {
       background-image: url(/img/tablet/order-background-tablet@2x.jpg);
     }
@@ -206,13 +215,15 @@ ORDER SECTION
 
 /* ============== DESKTOP-1280 ==================================== */
 @media screen and (min-width: 1280px) {
+  /* .order-sec-container {
+    background-position: left -258px bottom;
+  } */
   .order-sec-container {
     display: flex;
     flex-direction: row-reverse;
     gap: 50px;
     padding-top: 150px;
     padding-bottom: 0;
-    background-position: left -258px bottom;
   }
   .order-form-holder {
     margin-bottom: 0;
@@ -228,9 +239,9 @@ ORDER SECTION
     background-image: url(/img/desktop1280/order-background-desktop1280.jpg);
   }
   @media screen and (min-resolution: 192dpi) {
-    .order-sec-bgimg-holder {
+    /* .order-sec-bgimg-holder {
       background-image: url(/img/desktop1280/order-background-desktop1280@2x.jpg);
-    }
+    } */
     .order-pic-holder {
       width: 588px;
     }
@@ -238,9 +249,9 @@ ORDER SECTION
 }
 /* ============== DESKTOP-1440 ==================================== */
 @media screen and (min-width: 1440px) {
-  .order-sec-container {
+  /* .order-sec-container {
     background-position: left -222px bottom;
-  }
+  } */
 
   .order-pic-holder {
     width: 524px;
