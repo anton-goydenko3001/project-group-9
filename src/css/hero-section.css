@@ -36,6 +36,11 @@
 }
 
 .hero-order-link {
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    color: #fcf9f9;
     border: none;
     cursor: pointer;
     background-color: transparent;
@@ -44,24 +49,17 @@
     padding: 14px 36px;
     width: 154px;
     height: 49px;
-    font-weight: 600;
-    font-size: 14px;
-    letter-spacing: -0.04em;
-    text-transform: uppercase;
-    color: #fcf9f9;
-    max-width: 154px;
-    max-height: 49px;
-    padding: 14px 36px;
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-left: 70px;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-order-link:hover,
 .hero-order-link:focus {
     border: 1px solid #ecd979;
+    color: #fcf9f9;
 }
 
 .hero-order-link-icon {
@@ -113,7 +111,6 @@
         width: 100%;
         font-weight: 400;
         font-size: 16px;
-        letter-spacing: -0.04em;
         text-align: center;
         color: rgba(252, 249, 249, 0.4);
     }
@@ -178,12 +175,11 @@
     }
     .hero-header-and-link-container {
         margin-top: 66px;
-        min-width: 632px;
-       
+        min-width: 632px;  
     }
     .hero-header {
         font-size: 64px;
         line-height: 1.16;
-        min-width: 632px;
+        max-width: 630px;
     }
 }
