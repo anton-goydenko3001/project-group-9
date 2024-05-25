@@ -27,11 +27,11 @@ ORDER SECTION
     height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(/img/phone/order-background-phone.jpg);
+    background-image: url(/src/img/phone/order-background-phone.jpg);
   }
   @media screen and (min-resolution: 192dpi) {
     .order-sec-bgimg-holder {
-      background-image: url(/img/phone/order-background-phone@2x.jpg);
+      background-image: url(/src/img/phone/order-background-phone@2x.jpg);
     }
   }
   .order-title {
@@ -67,6 +67,7 @@ ORDER SECTION
     border-radius: 15px;
     color: rgba(252, 249, 249, 0.5);
     border: 1px solid rgba(252, 249, 249, 0.1);
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .order-form-element:hover,
@@ -108,7 +109,7 @@ ORDER SECTION
     padding-top: 100px;
     padding-bottom: 79px;
 
-    background-image: url(/img/ornament-gray.png);
+    background-image: url(/src/src/img/ornament/ornament-gray.png);
     background-size: 545px 484px;
     background-position: left -221px bottom;
     background-repeat: no-repeat;
@@ -121,14 +122,14 @@ ORDER SECTION
     height: 776px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(/img/tablet/order-background-tablet.jpg);
+    background-image: url(/src/img/tablet/order-background-tablet.jpg);
   }
   @media screen and (min-resolution: 192dpi) {
     .order-sec-container {
-      background-image: url(/img/ornament-gray@2x.png);
+      background-image: url(/src/img/ornament/ornament-gray@2x.png);
     }
     .order-sec-bgimg-holder {
-      background-image: url(/img/tablet/order-background-tablet@2x.jpg);
+      background-image: url(/src/img/tablet/order-background-tablet@2x.jpg);
     }
   }
 
@@ -169,6 +170,7 @@ ORDER SECTION
     color: rgba(252, 249, 249, 0.5);
     border-radius: 15px;
     border: 1px solid rgba(252, 249, 249, 0.1);
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .order-form-element:hover,
   .order-form-element:focus {
@@ -194,6 +196,7 @@ ORDER SECTION
     letter-spacing: -0.04em;
     text-transform: uppercase;
     color: var(--white);
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .order-form-btn:hover,
   .order-form-btn:focus {
@@ -222,11 +225,11 @@ ORDER SECTION
     height: 776px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(/img/desktop1280/order-background-desktop1280.jpg);
+    background-image: url(/src/img/desktop1280/order-background-desktop1280.jpg);
   }
   @media screen and (min-resolution: 192dpi) {
     .order-sec-bgimg-holder {
-      background-image: url(/img/desktop1280/order-background-desktop1280@2x.jpg);
+      background-image: url(/src/img/desktop1280/order-background-desktop1280@2x.jpg);
     }
     .order-pic-holder {
       width: 588px;
