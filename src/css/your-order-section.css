@@ -27,11 +27,11 @@ ORDER SECTION
     height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(/src/img/phone/order-background-phone.jpg);
+    background-image: url(/img/phone/order-background-phone.jpg);
   }
   @media screen and (min-resolution: 192dpi) {
     .order-sec-bgimg-holder {
-      background-image: url(/src/img/phone/order-background-phone@2x.jpg);
+      background-image: url(/img/phone/order-background-phone@2x.jpg);
     }
   }
   .order-title {
@@ -109,7 +109,7 @@ ORDER SECTION
     padding-top: 100px;
     padding-bottom: 79px;
 
-    background-image: url(/src/src/img/ornament/ornament-gray.png);
+    background-image: url(/img/ornament/ornament-gray.png);
     background-size: 545px 484px;
     background-position: left -221px bottom;
     background-repeat: no-repeat;
@@ -122,14 +122,14 @@ ORDER SECTION
     height: 776px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(/src/img/tablet/order-background-tablet.jpg);
+    background-image: url(/img/tablet/order-background-tablet.jpg);
   }
   @media screen and (min-resolution: 192dpi) {
     .order-sec-container {
-      background-image: url(/src/img/ornament/ornament-gray@2x.png);
+      background-image: url(/img/ornament/ornament-gray@2x.png);
     }
     .order-sec-bgimg-holder {
-      background-image: url(/src/img/tablet/order-background-tablet@2x.jpg);
+      background-image: url(/img/tablet/order-background-tablet@2x.jpg);
     }
   }
 
@@ -225,11 +225,11 @@ ORDER SECTION
     height: 776px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(/src/img/desktop1280/order-background-desktop1280.jpg);
+    background-image: url(/img/desktop1280/order-background-desktop1280.jpg);
   }
   @media screen and (min-resolution: 192dpi) {
     .order-sec-bgimg-holder {
-      background-image: url(/src/img/desktop1280/order-background-desktop1280@2x.jpg);
+      background-image: url(/img/desktop1280/order-background-desktop1280@2x.jpg);
     }
     .order-pic-holder {
       width: 588px;
