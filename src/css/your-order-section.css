@@ -9,6 +9,12 @@ ORDER SECTION
 
 /*  =============  MOBILE ================================= */
 @media screen and (max-width: 767px) {
+  .order-sec-ornament-gray-pic {
+    display: none;
+  }
+  .order-sec-ornament-gray {
+    display: none;
+  }
   .order-sec-pic-img {
     display: none;
   }
@@ -72,7 +78,7 @@ ORDER SECTION
 
   .order-form-element:hover,
   .order-form-element:focus {
-    border: 1px solid #ecd979;
+    border: 1px solid rgba(252, 249, 249, 0.6);
   }
   .order-form-user-comment {
     border-radius: 8px;
@@ -81,7 +87,7 @@ ORDER SECTION
   .order-form-btn {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    gap: 10px;
     background-color: transparent;
     border: 1px solid rgba(252, 249, 249, 0.1);
     border-radius: 15px;
@@ -108,21 +114,20 @@ ORDER SECTION
   /* .order-sec-container {
     background-image: url(/img/ornament/ornament-gray.png);
     background-size: 545px 484px;
-
     background-repeat: no-repeat;
     background-position: left -222px bottom;
   } */
-  .your-order-section {
-    background-image: url(/img/ornament/ornament-gray.png);
-    background-size: 545px 484px;
-    background-repeat: no-repeat;
-    background-position: center;
-    /* transform: translateX(-150%) translateY(80); */
-  }
   .order-sec-container {
     padding-top: 100px;
     padding-bottom: 79px;
+    position: relative;
   }
+  .order-sec-ornament-gray-pic {
+    position: absolute;
+    bottom: 0;
+    left: -222px;
+  }
+
   .order-sec-bgimg-holder {
     padding: 0;
     margin-left: auto;
@@ -183,7 +188,7 @@ ORDER SECTION
   }
   .order-form-element:hover,
   .order-form-element:focus {
-    border: 1px solid #ecd979;
+    border: 1px solid rgba(252, 249, 249, 0.6);
   }
   .order-form-user-comment {
     border-radius: 8px;
@@ -192,7 +197,7 @@ ORDER SECTION
   .order-form-btn {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    gap: 10px;
     background-color: transparent;
     border: 1px solid rgba(252, 249, 249, 0.1);
     border-radius: 15px;
@@ -218,12 +223,18 @@ ORDER SECTION
   /* .order-sec-container {
     background-position: left -258px bottom;
   } */
+
   .order-sec-container {
     display: flex;
     flex-direction: row-reverse;
     gap: 50px;
     padding-top: 150px;
     padding-bottom: 0;
+  }
+  .order-sec-ornament-gray-pic {
+    position: absolute;
+    bottom: 0;
+    left: -270px;
   }
   .order-form-holder {
     margin-bottom: 0;
@@ -252,7 +263,11 @@ ORDER SECTION
   /* .order-sec-container {
     background-position: left -222px bottom;
   } */
-
+  .order-sec-ornament-gray-pic {
+    position: absolute;
+    bottom: 0;
+    left: -232px;
+  }
   .order-pic-holder {
     width: 524px;
   }
