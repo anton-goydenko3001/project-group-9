@@ -1,0 +1,55 @@
+<section class="hero">
+  <div class="container hero-container">
+    <div class="hero-star-and-text-container">
+      <svg class="hero-star-icon" width="52" height="51">
+        <use href="/img/icons.svg#Star-icon"></use>
+      </svg>
+      <p class="hero-text">all embroidery is made by hand</p>
+    </div>
+    <div class="hero-header-and-link-container">
+      <h1 class="hero-header">
+        Reviving the traditional
+        <span class="hero-accent">Ukrainian</span> artistry in every stitch.
+      </h1>
+      <a class="hero-order-link" href="#customer-order">
+        Order
+        <svg class="hero-order-link-icon" width="26" height="10">
+          <use href="/img/icons.svg#vector-icon"></use>
+        </svg>
+      </a>
+    </div>
+    <div class="hero-image-container">
+      <picture>
+        <source
+          srcset="
+            /img/desktop1280/hero-desktop1280.jpg    1x,
+            /img/desktop1280/hero-desktop1280@2x.jpg 2x
+          "
+          media="(min-width: 1280px)"
+          width="392"
+          height="545"
+        />
+        <source
+          srcset="
+            /img/tablet/hero-tablet.jpg    1x,
+            /img/tablet/hero-tablet@2x.jpg 2x
+          "
+          media="(min-width: 768px)"
+          width="413"
+          height="575"
+        />
+        <source
+          srcset="/img/phone/hero-phone.jpg 1x, /img/phone/hero-phone@2x.jpg 2x"
+          media="(max-width: 767px)"
+          width="335"
+          height="545"
+        />
+        <img
+          class="hero-image"
+          src="/img/desktop1280/hero-desktop1280.jpg"
+          alt="girl"
+        />
+      </picture>
+    </div>
+  </div>
+</section>
