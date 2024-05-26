@@ -5,7 +5,21 @@
   width: 100%;
   height: 100%;
   z-index: 789;
+  display: flex;
+  align-content: center;
+  justify-content: center;
   background-color: rgba(83, 87, 47, 0.6);
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.is-open {
+  opacity: 1;
+  visibility: visible;
+  /* overflow: hidden; */
 }
 
 .mobile-menu {
@@ -15,7 +29,7 @@
   top: 0;
   right: 0;
   background: #ecd979;
-  background-image: url('../img/ornament/ornament-black.png');
+  background-image: url('./img/ornament/ornament-black.png');
   background-position: bottom -51px center;
   background-repeat: no-repeat;
   background-size: 340px 302px;
@@ -25,8 +39,8 @@
   display: flex;
   flex-direction: column;
   overflow: auto;
-  pointer-events: none;
   opacity: 0;
+  pointer-events: none;
   transform: translateX(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -35,10 +49,6 @@
   pointer-events: auto;
   transform: translateX(0);
   opacity: 1;
-}
-
-.no-scroll {
-  overflow: hidden;
 }
 
 .mobile-menu-top {
@@ -140,7 +150,10 @@
   }
 }
 @media screen and (min-width: 1280px) {
-  .mobile-menu {
+  .backdrop {
     display: none;
   }
+  /* .mobile-menu {
+    display: none;
+  } */
 }
