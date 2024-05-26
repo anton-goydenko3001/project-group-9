@@ -17,7 +17,7 @@
     <title>Vyshyvanka</title>
     
     <script type="module" crossorigin src="/project-group-9/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/project-group-9/assets/index-dfa9793e.css">
+    <link rel="stylesheet" href="/project-group-9/assets/index-a81a3099.css">
   </head>
   <body>
     <header class="section section-topline">
@@ -83,12 +83,26 @@
       
       
       
-      <!-- ================= order-section ======================================= -->
+      <!-- ================= ORDER SECTION ======================================= -->
 
-<section class="section your-order-section" id="order-section">
+<section class="section your-order-section" id="customer-order">
   <div class="container order-sec-bgimg-holder"></div>
 
   <div class="container order-sec-container">
+    <picture class="order-sec-ornament-gray-pic">
+      <source
+        srcset="/project-group-9/assets/ornament-gray-47021c40.png 1x, /project-group-9/assets/ornament-gray@2x-56c89ead.png 2x"
+        media="(min-width: 768px)"
+      />
+      <img
+        class="order-sec-ornament-gray"
+        src="/project-group-9/assets/ornament-gray-47021c40.png"
+        alt="ornament gray"
+        width="545"
+        height="484"
+      />
+    </picture>
+
     <div class="order-form-holder">
       <h2 class="order-title">
         <span class="order-title-part-wrapper"> Your order </span> is our
@@ -104,7 +118,6 @@
             placeholder="Enter your full name"
             pattern="[A-Za-zА-Яа-яЄєЇїІі'ь]{3,50}"
             required
-            autofocus
           />
         </label>
         <label class="order-form-label order-form-mail-label">
@@ -125,7 +138,7 @@
         <!--  Button Submit  -->
         <button class="order-form-btn" type="submit">
           Send
-          <svg class="order-form-btn-icon" width="26" height="10">
+          <svg class="order-form-btn-icon" width="24" height="17">
             <use href="/project-group-9/assets/icons-c4f977b8.svg#vector-icon"></use>
           </svg>
         </button>
