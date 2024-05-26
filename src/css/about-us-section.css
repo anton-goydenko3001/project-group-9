@@ -1,5 +1,5 @@
 .about-us {
-  background-image: url('https://picsum.photos/545/484');
+  background-image: url('/img/ornament/ornament-gray.png');
   background-repeat: no-repeat;
   background-position: bottom right -209px;
   padding-top: 40px;
@@ -8,7 +8,7 @@
 
 @media screen and (min-resolution: 192dpi) {
   .about-us {
-    background-image: url('https://pcsum.photos/545/484');
+    background-image: url('/img/ornament/ornament-gray@2x.png');
   }
 }
 
@@ -57,6 +57,7 @@
     padding-top: 50px;
     padding-bottom: 50px;
     background-position: bottom right -176px;
+    background-size: 545px 484px;
   }
 }
 
@@ -71,6 +72,7 @@
     padding-top: 75px;
     padding-bottom: 80px;
     background-position: bottom right -160px;
+    background-clip: border-box;
   }
 
   .about-us-container {
@@ -86,6 +88,9 @@
 
 @media screen and (min-width: 1440px) {
   .about-us {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1440px;
     background-position: bottom right;
   }
 
