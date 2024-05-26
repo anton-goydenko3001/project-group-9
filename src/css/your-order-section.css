@@ -9,10 +9,16 @@ ORDER SECTION
 
 /*  =============  MOBILE ================================= */
 @media screen and (max-width: 767px) {
-  .order-pic-holder {
+  .order-sec-ornament-gray-pic {
+    display: none;
+  }
+  .order-sec-ornament-gray {
     display: none;
   }
   .order-sec-pic-img {
+    display: none;
+  }
+  .order-pic-holder {
     display: none;
   }
   .order-sec-container {
@@ -72,7 +78,7 @@ ORDER SECTION
 
   .order-form-element:hover,
   .order-form-element:focus {
-    border: 1px solid #ecd979;
+    border: 1px solid rgba(252, 249, 249, 0.6);
   }
   .order-form-user-comment {
     border-radius: 8px;
@@ -81,7 +87,7 @@ ORDER SECTION
   .order-form-btn {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    gap: 10px;
     background-color: transparent;
     border: 1px solid rgba(252, 249, 249, 0.1);
     border-radius: 15px;
@@ -105,15 +111,23 @@ ORDER SECTION
 }
 /* =============== TABLET ================================= */
 @media screen and (min-width: 768px) {
+  /* .order-sec-container {
+    background-image: url(/img/ornament/ornament-gray.png);
+    background-size: 545px 484px;
+    background-repeat: no-repeat;
+    background-position: left -222px bottom;
+  } */
   .order-sec-container {
     padding-top: 100px;
     padding-bottom: 79px;
-
-    background-image: url(/img/ornament/ornament-gray.png);
-    background-size: 545px 484px;
-    background-position: left -221px bottom;
-    background-repeat: no-repeat;
+    position: relative;
   }
+  .order-sec-ornament-gray-pic {
+    position: absolute;
+    bottom: 0;
+    left: -222px;
+  }
+
   .order-sec-bgimg-holder {
     padding: 0;
     margin-left: auto;
@@ -125,9 +139,9 @@ ORDER SECTION
     background-image: url(/img/tablet/order-background-tablet.jpg);
   }
   @media screen and (min-resolution: 192dpi) {
-    .order-sec-container {
+    /* .order-sec-container {
       background-image: url(/img/ornament/ornament-gray@2x.png);
-    }
+    } */
     .order-sec-bgimg-holder {
       background-image: url(/img/tablet/order-background-tablet@2x.jpg);
     }
@@ -174,7 +188,7 @@ ORDER SECTION
   }
   .order-form-element:hover,
   .order-form-element:focus {
-    border: 1px solid #ecd979;
+    border: 1px solid rgba(252, 249, 249, 0.6);
   }
   .order-form-user-comment {
     border-radius: 8px;
@@ -183,7 +197,7 @@ ORDER SECTION
   .order-form-btn {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    gap: 10px;
     background-color: transparent;
     border: 1px solid rgba(252, 249, 249, 0.1);
     border-radius: 15px;
@@ -206,13 +220,21 @@ ORDER SECTION
 
 /* ============== DESKTOP-1280 ==================================== */
 @media screen and (min-width: 1280px) {
+  /* .order-sec-container {
+    background-position: left -258px bottom;
+  } */
+
   .order-sec-container {
     display: flex;
     flex-direction: row-reverse;
     gap: 50px;
     padding-top: 150px;
     padding-bottom: 0;
-    background-position: left -258px bottom;
+  }
+  .order-sec-ornament-gray-pic {
+    position: absolute;
+    bottom: 0;
+    left: -270px;
   }
   .order-form-holder {
     margin-bottom: 0;
@@ -228,9 +250,9 @@ ORDER SECTION
     background-image: url(/img/desktop1280/order-background-desktop1280.jpg);
   }
   @media screen and (min-resolution: 192dpi) {
-    .order-sec-bgimg-holder {
+    /* .order-sec-bgimg-holder {
       background-image: url(/img/desktop1280/order-background-desktop1280@2x.jpg);
-    }
+    } */
     .order-pic-holder {
       width: 588px;
     }
@@ -238,10 +260,14 @@ ORDER SECTION
 }
 /* ============== DESKTOP-1440 ==================================== */
 @media screen and (min-width: 1440px) {
-  .order-sec-container {
+  /* .order-sec-container {
     background-position: left -222px bottom;
+  } */
+  .order-sec-ornament-gray-pic {
+    position: absolute;
+    bottom: 0;
+    left: -232px;
   }
-
   .order-pic-holder {
     width: 524px;
   }
