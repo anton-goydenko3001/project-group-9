@@ -49,8 +49,14 @@
  
   /* Rewiews */
   
-  
-  
+   @media screen and (max-width: 375px) and (min-width: 0px) {
+    .sergey-rybachok{
+      display: none;
+    }
+  .natalia-chatuk{
+    display: none;
+  }}
+   
   @media screen and (min-width: 375px) {
 
 
