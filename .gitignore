@@ -24,7 +24,7 @@ dist-ssr
 *.sw?
 
 # pull requests list
-pullrequests-list.txt
+pull-requests-list.txt
 index_draft.html
 styles_draft.css
 pull-request-list.txt
