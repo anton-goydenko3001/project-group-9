@@ -1,74 +1,75 @@
 .footer {
-  padding-top: 40px;
-  padding-bottom: 280px;
-  background-image: url(../img/g8.png);
-  background-size: 452px 401px;
-  background-position: bottom -201px center;
-  background-repeat: no-repeat;
-}
-.footer-list {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: flex-start;
-  column-gap: 40px;
-  row-gap: 25px;
-  text-transform: uppercase;
-}
-.footer-item-list {
-  font-size: 14px;
-  line-height: 123%;
-}
-.footer-item-list:first-child {
-  padding-right: 49px;
-}
-.footer-text {
-  font-weight: 400;
-  font-size: 44px;
-  line-height: 123%;
-  letter-spacing: -0.03em;
-  margin-top: 40px;
-}
-.footer-text-span {
-  color: #ecd979;
-}
-@media screen and (min-resolution: 192dpi) {
-  .footer {
-    background-image: url(../img/g8@2x.png);
-  }
-}
-/* -----------tablet------------------- */
-@media screen and (min-width: 768px) {
-  .footer {
-    padding-bottom: 40px;
-    background-position: +594px 0px;
+    padding-top: 40px;
+    padding-bottom: 280px;
+    background-image: url(/img/ornament/ornament-yellow.png);
+    background-size: 452px 401px;
+    background-position: bottom -201px center;
+    background-repeat: no-repeat;
   }
   .footer-list {
-    flex-wrap: nowrap;
-    gap: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    column-gap: 40px;
+    row-gap: 25px;
+    text-transform: uppercase;
+  }
+  .footer-item-list {
+    font-size: 14px;
+    line-height: 123%;
   }
   .footer-item-list:first-child {
-    padding-right: 0px;
+    padding-right: 49px;
   }
   .footer-text {
-    font-size: 54px;
-    line-height: 119%;
-    max-width: 521px;
-    margin-top: 80px;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 123%;
+    letter-spacing: -0.03em;
+    margin-top: 40px;
   }
-}
-/* -------------------desctop 1280px------------------ */
-@media screen and (min-width: 1280px) {
-  .footer {
-    background-position: +944px +61px;
+  .footer-text-span {
+    color: #ecd979;
   }
-  .footer-text {
-    font-size: 64px;
-    line-height: 116%;
-    max-width: 754px;
-    margin-top: 117px;
+  @media screen and (min-resolution: 192dpi) {
+    .footer {
+      background-image: url(/img/ornament/ornament-yellow@2x.png);
+    }
   }
-}
-/* ---------------------desctop 1440px------------------- */
-@media screen and (min-width: 1440px) {
-}
+  /* -----------tablet------------------- */
+  @media screen and (min-width: 768px) {
+    .footer {
+      padding-bottom: 40px;
+      background-position: +594px 0px;
+    }
+    .footer-list {
+      flex-wrap: nowrap;
+      gap: 25px;
+    }
+    .footer-item-list:first-child {
+      padding-right: 0px;
+    }
+    .footer-text {
+      font-size: 54px;
+      line-height: 119%;
+      max-width: 521px;
+      margin-top: 80px;
+    }
+  }
+  /* -------------------desctop 1280px------------------ */
+  @media screen and (min-width: 1280px) {
+    .footer {
+      background-size: 595px 528px;
+      background-position: +944px -61px;
+    }
+    .footer-text {
+      font-size: 64px;
+      line-height: 116%;
+      max-width: 754px;
+      margin-top: 117px;
+    }
+  }
+  /* ---------------------desctop 1440px------------------- */
+  @media screen and (min-width: 1440px) {
+  }
