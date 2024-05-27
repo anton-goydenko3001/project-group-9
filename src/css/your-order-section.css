@@ -93,6 +93,7 @@ ORDER SECTION
     border-radius: 15px;
     padding: 14px 36px;
     width: 145px;
+    height: 49px;
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -202,7 +203,8 @@ ORDER SECTION
     border: 1px solid rgba(252, 249, 249, 0.1);
     border-radius: 15px;
     padding: 14px 36px;
-    width: 145px;
+    width: 168px;
+    height: 50px;
     margin-top: 20px;
 
     font-weight: 600;
@@ -250,9 +252,9 @@ ORDER SECTION
     background-image: url(/img/desktop1280/order-background-desktop1280.jpg);
   }
   @media screen and (min-resolution: 192dpi) {
-    /* .order-sec-bgimg-holder {
+    .order-sec-bgimg-holder {
       background-image: url(/img/desktop1280/order-background-desktop1280@2x.jpg);
-    } */
+    }
     .order-pic-holder {
       width: 588px;
     }
@@ -271,7 +273,17 @@ ORDER SECTION
   .order-pic-holder {
     width: 524px;
   }
-  .order-form-holder {
-    width: 666px;
+
+  .order-sec-bgimg-holder {
+    background-image: url(/img/desktop1440/order-background-desktop1440.jpg);
+  }
+  @media screen and (min-resolution: 192dpi) {
+    .order-sec-bgimg-holder {
+      background-image: url(/img/desktop1440/order-background-desktop1440@2x.jpg);
+    }
+
+    .order-form-holder {
+      width: 666px;
+    }
   }
 }
