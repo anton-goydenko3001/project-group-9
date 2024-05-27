@@ -5,21 +5,6 @@
     padding-top: 18px;
     padding-bottom: 40px;
 }
-/* .our-collection-container {
-    position: relative;
-
-}
-.our-collection-container::before {
-    content: '';
-    width: 199px;
-    height: 177px;
-    top: 338px;
-    left: -127px;
-    position: absolute;
-    background-image: url('/img/ornament/ornament-yellow.png');
-    background-repeat: no-repeat;
-    background-size: 199px 177px;
-} */
 
 .collection-heading-second {
     font-weight: 500;
@@ -58,6 +43,19 @@
     overflow: hidden;
     margin-bottom: 18px;
 }
+.our-collection-container {
+    position: relative;
+}
+.container-our-collection-new {
+    position: absolute;
+    top: 298px;
+    left: -127px;
+    width: 199px;
+    height: 177px;
+    background-image: url('/img/ornament/ornament-yellow.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
 
 .images-overlay {
     position: absolute;
@@ -73,7 +71,8 @@
 .container-collection-image:hover .images-overlay {
     opacity: 1;
 }
-.container-collection-image:hover {
+.container-collection-image:hover,
+.container-collection-image:focus {
 transform: scale(1.05);
 }
 .text-image-collection {
@@ -90,23 +89,12 @@ transform: scale(1.05);
 }
 
 @media screen and (max-width: 767px) {
-.our-collection-section {
-        background-image: url('/img/ornament/ornament-yellow.png');
-        background-repeat: no-repeat;
-        background-position: left;
-        background-size: 199px 177px;
-        background-position-x: -127px;
-        background-position-y: 316px;
-        background-origin: padding-box;
-        background-clip: padding-box;
-}
-
-.our-collection-section:not(:last-child) {
+.collection-item:not(:last-child) {
     margin-bottom: 20px;
 }
 }
 @media screen and (max-width: 767px) and (min-resolution: 192dpi) {
-.our-collection-section {
+.container-our-collection-new {
         background-image: url('/img/ornament/ornament-yellow@2x.png');
 }
 }
@@ -116,15 +104,15 @@ transform: scale(1.05);
         padding-top: 50px;
         padding-bottom: 50px;
 }
-.our-collection-section {
+.container-our-collection-new {
+    position: absolute;
+    top: 221px;
+    left: -224px;
+    width: 338px;
+    height: 300px;
     background-image: url('/img/ornament/ornament-yellow.png');
     background-repeat: no-repeat;
-    background-position: left;
-    background-size: 338px 300px;
-    background-position-x: -224px;
-    background-position-y: 271px;
-    background-origin: padding-box;
-    background-clip: padding-box;
+    background-size: cover;
 }
 .collection-heading-second {
     font-size: 44px;
@@ -166,7 +154,7 @@ transform: scale(1.05);
 }
 }
 @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
-    .our-collection-section {
+    .container-our-collection-new {
         background-image: url('/img/ornament/ornament-yellow@2x.png');
     }
 }
@@ -176,15 +164,16 @@ transform: scale(1.05);
     padding-top: 70px;
     padding-bottom: 75px;
 }
-.our-collection-section {
+.container-our-collection-new {
+    position: absolute;
+    top: 221px;
+    left: -169px;
+    width: 338px;
+    height: 300px;
     background-image: url('/img/ornament/ornament-yellow.png');
     background-repeat: no-repeat;
-    background-position: left;
-    background-size: 338px 300px;
-    background-position-x: -169px;
-    background-position-y: 291px;
-    background-origin: padding-box;
-    background-clip: padding-box;
+    background-size: cover;
+
 }
 
 .collection-item {
@@ -199,25 +188,25 @@ transform: scale(1.05);
 }
 }
 @media screen and (min-width: 1280px) and (min-resolution: 192dpi) {
-    .our-collection-section {
+    .container-our-collection-new {
         background-image: url('/img/ornament/ornament-yellow@2x.png');
     }
 }
 
 @media screen and (min-width: 1440px) {
-.our-collection-section {
-    background: url('/img/ornament/ornament-yellow.png');
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: 338px 300px;
-    background-position-x: -169px;
-    background-position-y: 301px;
-    background-origin: padding-box;
-    background-clip: padding-box;
-    }
+.container-our-collection-new {
+        position: absolute;
+        top: 231px;
+        left: -169px;
+        width: 338px;
+        height: 300px;
+        background-image: url('/img/ornament/ornament-yellow.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+}
 }
 @media screen and (min-width: 1440px) and (min-resolution: 192dpi) {
-    .our-collection-section {
+    .container-our-collection-new {
         background-image: url('/img/ornament/ornament-yellow@2x.png');
     }
 }
