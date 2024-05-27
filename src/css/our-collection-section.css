@@ -1,0 +1,223 @@
+/*--------------------OUR COLLECTION STYLES----------------*/
+.our-collection-section {
+    align-items: center;
+    justify-content: center;
+    padding-top: 18px;
+    padding-bottom: 40px;
+}
+/* .our-collection-container {
+    position: relative;
+
+}
+.our-collection-container::before {
+    content: '';
+    width: 199px;
+    height: 177px;
+    top: 338px;
+    left: -127px;
+    position: absolute;
+    background-image: url('/img/ornament/ornament-yellow.png');
+    background-repeat: no-repeat;
+    background-size: 199px 177px;
+} */
+
+.collection-heading-second {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.37;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.title-collection {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+
+}
+
+.collection-paragraph {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 0.05em;
+    color: rgba(252, 249, 249, 0.4);
+}
+
+.name-item {
+    text-align: left;
+}
+
+.container-collection-image {
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 18px;
+}
+
+.images-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+.container-collection-image:hover .images-overlay {
+    opacity: 1;
+}
+.container-collection-image:hover {
+transform: scale(1.05);
+}
+.text-image-collection {
+    position: absolute;
+    top: 30%;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding: 40px 32px;
+    height: 100%;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+.our-collection-section {
+        background-image: url('/img/ornament/ornament-yellow.png');
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: 199px 177px;
+        background-position-x: -127px;
+        background-position-y: 316px;
+        background-origin: padding-box;
+        background-clip: padding-box;
+}
+
+.our-collection-section:not(:last-child) {
+    margin-bottom: 20px;
+}
+}
+@media screen and (max-width: 767px) and (min-resolution: 192dpi) {
+.our-collection-section {
+        background-image: url('/img/ornament/ornament-yellow@2x.png');
+}
+}
+
+@media screen and (min-width: 768px) {
+.our-collection-section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+}
+.our-collection-section {
+    background-image: url('/img/ornament/ornament-yellow.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 338px 300px;
+    background-position-x: -224px;
+    background-position-y: 271px;
+    background-origin: padding-box;
+    background-clip: padding-box;
+}
+.collection-heading-second {
+    font-size: 44px;
+    line-height: 1.45;
+}
+
+.title-collection {
+    font-size: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.text-image-collection {
+    font-size: 18px;
+
+}
+
+.collection-paragraph {
+    font-size: 18px;
+    line-height: 1;
+}
+
+.collection-item {
+    display: flex;
+    flex-direction: column;
+    width: calc((100% - 20px)/2);
+
+}
+
+.list-collection {
+    display: flex;
+    column-gap: 20px;
+    row-gap: 20px;
+    flex-wrap: wrap;
+}
+
+.text-image-collection {
+    font-size: 18px;
+}
+}
+@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
+    .our-collection-section {
+        background-image: url('/img/ornament/ornament-yellow@2x.png');
+    }
+}
+
+@media screen and (min-width: 1280px) {
+.our-collection-section {
+    padding-top: 70px;
+    padding-bottom: 75px;
+}
+.our-collection-section {
+    background-image: url('/img/ornament/ornament-yellow.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 338px 300px;
+    background-position-x: -169px;
+    background-position-y: 291px;
+    background-origin: padding-box;
+    background-clip: padding-box;
+}
+
+.collection-item {
+    width: calc((100% - 40px)/3);
+    }
+
+.list-collection {
+    display: flex;
+    column-gap: 20px;
+    row-gap: 40px;
+    flex-wrap: wrap;
+}
+}
+@media screen and (min-width: 1280px) and (min-resolution: 192dpi) {
+    .our-collection-section {
+        background-image: url('/img/ornament/ornament-yellow@2x.png');
+    }
+}
+
+@media screen and (min-width: 1440px) {
+.our-collection-section {
+    background: url('/img/ornament/ornament-yellow.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 338px 300px;
+    background-position-x: -169px;
+    background-position-y: 301px;
+    background-origin: padding-box;
+    background-clip: padding-box;
+    }
+}
+@media screen and (min-width: 1440px) and (min-resolution: 192dpi) {
+    .our-collection-section {
+        background-image: url('/img/ornament/ornament-yellow@2x.png');
+    }
+}
