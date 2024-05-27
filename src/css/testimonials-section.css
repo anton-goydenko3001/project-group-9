@@ -1,0 +1,129 @@
+
+
+  
+  .reviews-title {
+    margin-bottom: 64px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.375;
+    letter-spacing: -0.03em;
+  }
+  
+  .reviews-list {
+    display: flex;
+    column-gap: 26px;    
+    margin-bottom: 50px;
+  }
+  
+  .reviews-list-item {
+    
+    position: relative;
+    padding: 54px 18px 18px 18px;
+    border-radius: 4px;
+    border: 1px solid rgba(252, 249, 249, 0.1);
+    width: 100%;
+    border-radius: 4px;
+    
+  }
+  
+  .reviews-list-avatar {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -40%);
+  }
+  
+  .reviews-list-fullname {
+    
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center; 
+    margin-bottom: 8px;
+  }
+  
+  .reviews-list-text {
+    font-size: 16px;
+    text-align: center;
+    color: rgba(252, 249, 249, 0.4);
+  }
+ 
+  /* Rewiews */
+  
+  
+  
+  @media screen and (min-width: 375px) {
+
+
+    .reviews-title {
+font-size: 32px;
+line-height: 1.375;
+letter-spacing: -0.03em;
+
+    }
+
+    
+    .reviews-list-item {
+      padding: 54px 22px 18px 22px;
+      
+    }
+    .sergey-rybachok{
+      display: none;
+    }
+  .natalia-chatuk{
+    display: none;
+  }
+  .reviews-list-text{
+   font-size: 16px;
+    text-align: center;
+  color: rgba(252, 249, 249, 0.4);
+  line-height: normal;
+  }
+  }
+
+  
+  
+    @media screen and (min-width: 768px) {
+
+      .reviews-title {
+font-size: 44px;
+line-height: 1.45455;
+
+
+      }
+
+      .sergey-rybachok{
+        display: block;
+      }
+      .reviews-list-text {
+        font-size: 14px;
+        text-align: center;
+        color: rgba(252, 249, 249, 0.4);
+        line-height: normal;
+      }
+      
+  
+  }
+  @media screen and (min-width: 1280px)
+  {
+  
+    .reviews-list-item{
+      padding: 54px 18px 39px 18px;
+      width: calc((100% - 52px) / 3);
+    }
+
+    .natalia-chatuk{
+      display: block;
+    }
+    .reviews-list-text {
+      font-size: 14px;
+      text-align: center;
+      color: rgba(252, 249, 249, 0.4);
+      line-height: normal;
+    }
+   
+  }
+  
+  
+    
+  
+  
