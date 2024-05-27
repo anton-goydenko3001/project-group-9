@@ -17,7 +17,7 @@
     <title>Vyshyvanka</title>
     
     <script type="module" crossorigin src="/project-group-9/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/project-group-9/assets/index-bc15df87.css">
+    <link rel="stylesheet" href="/project-group-9/assets/index-8f46d43f.css">
   </head>
   <body>
     <header class="section section-topline">
@@ -408,23 +408,27 @@
     </main>
       <!-- ================= ORDER SECTION ======================================= -->
 
-<section class="section your-order-section" id="customer-order">
+<section class="section your-order-section">
   <div class="container order-sec-bgimg-holder"></div>
 
   <div class="container order-sec-container">
-    <picture class="order-sec-ornament-gray-pic">
+    <div class="order-sec-ornament-box"></div>
+    <!-- <picture class="order-sec-ornament-gray-pic">
       <source
-        srcset="/project-group-9/assets/ornament-gray-47021c40.png 1x, /project-group-9/assets/ornament-gray@2x-56c89ead.png 2x"
+        srcset="
+          /img/ornament/ornament-gray.png    1x,
+          /img/ornament/ornament-gray@2x.png 2x
+        "
         media="(min-width: 768px)"
       />
       <img
         class="order-sec-ornament-gray"
-        src="/project-group-9/assets/ornament-gray-47021c40.png"
+        src="/img/ornament/ornament-gray.png"
         alt="ornament gray"
         width="545"
         height="484"
       />
-    </picture>
+    </picture> -->
 
     <div class="order-form-holder">
       <h2 class="order-title">
@@ -432,7 +436,7 @@
         priority: Personalized approach and quality of service
       </h2>
       <!-- ======== order-form =========== -->
-      <form class="order-sec-form">
+      <form class="order-sec-form" id="order-section">
         <label class="order-form-label order-form-name-label">
           <input
             class="order-form-element order-form-user-name"
