@@ -135,7 +135,7 @@ ORDER SECTION
     left: -222px;
     width: 545px;
     height: 484px;
-    background-image: url(/img/ornament/ornament-gray@2x.png);
+    background-image: url(/img/ornament/ornament-gray.png);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -151,9 +151,9 @@ ORDER SECTION
     background-image: url(/img/tablet/order-background-tablet.jpg);
   }
   @media screen and (min-resolution: 192dpi) {
-    /* .order-sec-container {
+    .order-sec-ornament-box {
       background-image: url(/img/ornament/ornament-gray@2x.png);
-    } */
+    }
     .order-sec-bgimg-holder {
       background-image: url(/img/tablet/order-background-tablet@2x.jpg);
     }
@@ -187,7 +187,6 @@ ORDER SECTION
     font-size: 16px;
     letter-spacing: -0.02em;
     color: rgba(252, 249, 249, 0.5);
-
     width: 508px;
   }
 
@@ -236,10 +235,6 @@ ORDER SECTION
 
 /* ============== DESKTOP-1280 ==================================== */
 @media screen and (min-width: 1280px) {
-  /* .order-sec-container {
-    background-position: left -258px bottom;
-  } */
-
   .order-sec-container {
     display: flex;
     flex-direction: row-reverse;
@@ -247,11 +242,6 @@ ORDER SECTION
     padding-top: 150px;
     padding-bottom: 0;
   }
-  /* .order-sec-ornament-gray-pic {
-    position: absolute;
-    bottom: 0;
-    left: -270px;
-  } */
 
   .order-sec-ornament-box {
     bottom: 0;
@@ -282,15 +272,6 @@ ORDER SECTION
 }
 /* ============== DESKTOP-1440 ==================================== */
 @media screen and (min-width: 1440px) {
-  /* .order-sec-container {
-    background-position: left -222px bottom;
-  } */
-  /* .order-sec-ornament-gray-pic {
-    position: absolute;
-    bottom: 0;
-    left: -232px;
-  } */
-
   .order-sec-ornament-box {
     bottom: 0;
     left: -220px;
