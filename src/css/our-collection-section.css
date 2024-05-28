@@ -42,6 +42,7 @@
     position: relative;
     overflow: hidden;
     margin-bottom: 18px;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .our-collection-container {
     position: relative;
@@ -72,7 +73,8 @@
     opacity: 1;
 }
 .container-collection-image:hover,
-.container-collection-image:focus {
+.container-collection-image:focus,
+.container-collection-image:active {
 transform: scale(1.05);
 }
 .text-image-collection {
