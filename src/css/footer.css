@@ -1,11 +1,14 @@
 .footer {
-    border-top: 1px solid rgba(252, 249, 249, 0.1);
     padding-top: 40px;
     padding-bottom: 280px;
     background-image: url(/img/ornament/ornament-yellow.png);
     background-size: 452px 401px;
     background-position: bottom -201px center;
     background-repeat: no-repeat;
+  }
+
+  .footer-wrapper {
+    border-top: 1px solid rgba(252, 249, 249, 0.1);
   }
   .footer-list {
     display: flex;
@@ -41,8 +44,12 @@
   /* -----------tablet------------------- */
   @media screen and (min-width: 768px) {
     .footer {
+      max-width: 930px;
       padding-bottom: 40px;
-      background-position: +594px 0px;
+      background-position: 594px -16px;
+      margin-left: auto;
+      margin-right: auto;
+      background-size: 452px 401px;
     }
     .footer-list {
       flex-wrap: nowrap;
@@ -61,8 +68,9 @@
   /* -------------------desctop 1280px------------------ */
   @media screen and (min-width: 1280px) {
     .footer {
+      max-width: 1539px;
       background-size: 595px 528px;
-      background-position: +944px -61px;
+      background-position: 944px -61px;
     }
     .footer-text {
       font-size: 64px;
